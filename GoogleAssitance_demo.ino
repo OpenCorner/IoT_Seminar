@@ -6,7 +6,7 @@ GoogleAssitance_demo.ino :
  --> Hardware :Bread Board Wemos D1 Mini Board, Led, Resistors,
                Relay Module, USB Cable.
  -->Software:Arduino Ide(version 1.8.5), Google Assistant and IFTTT App in Your Smart Phone, an Active Account on Adafruit.io Mqtt Broker
-
+ -->you have to download adafruit_mqtt_library from here https://github.com/adafruit/Adafruit_MQTT_Library.
  just visit :  http://opencorner.io/ for tutorials.
 
  
