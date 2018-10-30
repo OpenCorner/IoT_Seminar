@@ -1,4 +1,4 @@
-# GoogleAssitance_demo
+# GoogleAssistance_demo
 You might have used google assistants app to play music, to get some information and for other stuff. But your google assistant can do more, than these. Now you can use your google assistant to control your home appliances (here we have LED in place of home appliance) by just saying:   "OK Google, Lights ON"  That's it.
 
 REQUIREMENT :
@@ -153,7 +153,7 @@ Note: Copy and paste these details somewhere because we are going to use these d
 That’s it. You are done with the broker side. No complexity, nothing. Only simple and great UI and that’s why we like adafruit broker. You can even drag and resize the block according to your need.
  
 Coming back to Arduino
-Step9: Download “GoogleAssitance_demo” code from here by clicking on “Clone or download” (download zip). Unzip this folder and open that code in Arduino IDE.
+Step9: Download “GoogleAssistance_demo” code from here by clicking on “Clone or download” (download zip). Unzip this folder and open that code in Arduino IDE.
 Now download “Adafruit_MQTT_Library” from here. Click on “Clone or download.”
 
 ![22 coming back to arduino downloading adafruit library 12](https://user-images.githubusercontent.com/44518572/47650143-52cc2f00-dba5-11e8-94ca-9bf65c7c824c.png)
@@ -188,7 +188,7 @@ Make an account on IFTTT applet service.
 
 IFTTT stands for “IF THIS THAN THAT” 
 If we relate this to our example if this thing is happening than do this thing.
-In this process we going to merge our “google assistant” to our “Adafruite mqtt broker”
+In this process we going to merge our “google assistant” to our “Adafruit mqtt broker”
 Using IFTTT applet service.
 So when we say “ok google lights on” this phrase send (publish) data to mqtt broker feed 
 And our device which is already subscribed to this feed or topic will receive this data and lights becomes OFF.
@@ -215,7 +215,7 @@ What do you want to say?
         Write “lights ON” or”turn on the light google”
 2nd Question:
  What do you want the assistant to say in response?
-     You can write any phrase here like “Ok Ankit done lights are on” or “JO HUKUM                    
+     You can write any phrase here like “Ok done lights are on” or “JO HUKUM                    
      MERE AAKA”
     Then click on create trigger.
 Now you can see google assistant is added in place of +this.
