@@ -111,6 +111,7 @@ void loop() {
       digitalWrite(D2,num);
     }
   }
+}
 
 
 
