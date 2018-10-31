@@ -59,10 +59,18 @@ IFTTT (connecting google assistant with Adafruit.io MQTT broker)
 ![5 in hardware connection 2](https://user-images.githubusercontent.com/44518572/47649272-bef96380-dba2-11e8-8631-1f337716b1b6.png)
 
   If you have relay module than make connection as shown in figure with your home appliance. (here we are using bulb)
+  
+
     WEMOS D1 mini                  Relay Board
+    
+    
        5V                 -----       VCC
+       
+       
       GND                 -----       GND
-       IN (signal pin)    -----    D1 or *any digital pin
+      
+      
+     IN (signal pin)    -----    D1 or *any digital pin
 (Note: If you are using any other pin you have to change that pin configuration in given code.)
 
 **Getting Arduino IDE ready for programming:**
@@ -71,15 +79,19 @@ IFTTT (connecting google assistant with Adafruit.io MQTT broker)
  
 Download ARDUINO IDE from here  (according to your system) if you have windows system then just click here
 Install ARDUINO IDE to your system.
-Once setup is done we need to configure ESP8266 to use it with Arduino IDE
-Now Open ARDUINO IDE
 
-Step 1: Copy this link http://arduino.esp8266.com/stable/package_esp8266com_index.json
+Once setup is done we need to configure ESP8266 to use it with Arduino IDE
+
+Now Open ARDUINO IDE.
+
+**Step 1:** 
+Copy this link http://arduino.esp8266.com/stable/package_esp8266com_index.json
 Now go to file->preferences->Additional Boards Manager URLs
 ![7 preferences and additional board manager](https://user-images.githubusercontent.com/44518572/47649734-2cf25a80-dba4-11e8-8dbe-5ef7e40fe2e1.png)
  
  
-Step 2: Go to Tools->boards->boards manager, search ESP8266 and install esp8266 board.
+**Step 2:**
+Go to Tools->boards->boards manager, search ESP8266 and install esp8266 board.
 
 ![8 installing esp8266 in board manager](https://user-images.githubusercontent.com/44518572/47649750-37145900-dba4-11e8-9bac-0d9fb4a7bcbf.png)
  
@@ -88,10 +100,17 @@ Once installation is done you should be able to see ESP8266 Modules in Toolsb
 
 Let’s Start Coding......
 
-Step 3: Connect Wemos D1 mini to your computer via USB cable
-Step 4: Download this code and open with Arduino IDE
-Step 6: Go to Tools->boards->ESP8266 and Select Wemos D1 mini
-Step 7: Select port COMX of your board
+**Step 3:**
+Connect Wemos D1 mini to your computer via USB cable
+
+
+**Step 4:** Download this code and open with Arduino IDE
+
+
+**Step 5:** Go to Tools->boards->ESP8266 and Select Wemos D1 mini
+
+
+**Step 6:** Select port COMX of your board
 To check Port Go to device manager, you should be able to see your device under ports along with port number 
  
  ![9 device manager port](https://user-images.githubusercontent.com/44518572/47649753-3aa7e000-dba4-11e8-8a16-37f9e22606e2.png)
@@ -102,8 +121,10 @@ Now select COM port on Arduino ide like this:
 ![10 port selecting in arduino](https://user-images.githubusercontent.com/44518572/47649756-3d0a3a00-dba4-11e8-8f01-6adff0341953.png)  
  
 
-Configure Adafruit.io
-Step 8: Now we need a MQTT broker. There are many broker for MQTT but we have used Adafruit MQTT broker. It’s quite simple and its UI is also great. To use Adafruit MQTT broker, first of all you need to make an account on Adafruit.io.
+**Configure Adafruit.io**
+
+**Step 8:**
+Now we need a MQTT broker. There are many broker for MQTT but we have used Adafruit MQTT broker. It’s quite simple and its UI is also great. To use Adafruit MQTT broker, first of all you need to make an account on Adafruit.io.
  1. First sign up for ACCOUNT 
 ![11 configuring adafruit io 1](https://user-images.githubusercontent.com/44518572/47649759-3f6c9400-dba4-11e8-9b5a-ab9b2e67116a.png) 
 
