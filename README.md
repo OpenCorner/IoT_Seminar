@@ -1,17 +1,16 @@
 # GoogleAssistance_demo
 You might have used google assistants app to play music, to get some information and for other stuff. But your google assistant can do more, than these. Now you can use your google assistant to control your home appliances (here we have LED in place of home appliance) by just saying:   "OK Google, Lights ON"  That's it.
 
-REQUIREMENT :
+**REQUIREMENT :**
 
-HARDWARE: Bread Board Wemos D1 Mini Board, Led, Resistors, Relay Module (Need to Buy If We Are Connecting Home Appliance), USB Cable
+**HARDWARE:** 
+Bread Board Wemos D1 Mini Board, Led, Resistors, Relay Module (Need to Buy If We Are Connecting Home Appliance), USB Cable
 
-SOFTWARE:Arduino Ide, Google Assistant and IFTTT App in Your Smart Phone, an Active Account on Adafruit.io Mqtt Broker
+**SOFTWARE:**
+Arduino Ide, Google Assistant and IFTTT App in Your Smart Phone, an Active Account on Adafruit.io Mqtt Broker
 LIBRARY:ADAFRUITIO_MQTT_LIBRARY YOU CAN DOWNLOAD IT FROM HERE :https://github.com/adafruit/Adafruit_MQTT_Library
 
-
-To do this just visit http://opencorner.io 
-
-**Control your home appliances from anywhere with your Google asssistant**
+**Control your home appliances from anywhere with your Google asssistant!!!**
 
 Let's start your journey with our OPENCORNER’s hardware kit!!
 Open that Kit box.
@@ -22,7 +21,8 @@ As you can see in that box there is one blue colour Board along with 2 LEDs, few
 ![image](https://user-images.githubusercontent.com/44518572/47646240-4b9f2400-db99-11e8-9f20-db82629f11d4.png) 
 
 
-Introduction: 
+**Introduction:**
+
 You might have used google assistants app to play music, to get some information and for other stuff. But your google assistant can do more, than these. Now you can use your google assistant to control your home appliances (here we have LED in place of home appliance) by just saying: 
 
 "OK Google, Lights ON"
@@ -45,9 +45,12 @@ Configuring Adafruit.io
 Coding
 IFTTT (connecting google assistant with Adafruit.io MQTT broker)
 
-Hardware Connection:
+**Hardware Connection:**
+
 •	As you can see on the board there is lots of pin available (i.e. analog pins, digital pins, TX, RX, 5V, 3.3 and ground pins)
+
 •	Here we are going to use digital pins D1 and D2.
+
 •	Let’s connect components as shown in below figure:
 
 
@@ -62,10 +65,10 @@ Hardware Connection:
        IN (signal pin)    -----    D1 or *any digital pin
 (Note: If you are using any other pin you have to change that pin configuration in given code.)
 
-Getting Arduino IDE ready for programming:
+**Getting Arduino IDE ready for programming:**
+
 ![6 getting arduino ide ready for programmuing](https://user-images.githubusercontent.com/44518572/47649730-28c63d00-dba4-11e8-8fba-3d70d82461d7.png)
  
-
 Download ARDUINO IDE from here  (according to your system) if you have windows system then just click here
 Install ARDUINO IDE to your system.
 Once setup is done we need to configure ESP8266 to use it with Arduino IDE
